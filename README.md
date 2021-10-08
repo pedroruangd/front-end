@@ -17,6 +17,10 @@ Arquivo B | Versão 1 | Versão 2
 
 ## Criando conta no Github
 
+git clone https://github.com/pedroruangd/front-end.git
+
+Adicionei novos arquivos com o git add *
+
 ## Clonar o projeto
 
 ## Commits
