@@ -1,4 +1,4 @@
-# Curso Front-End
+# Curso Front-End EBAC
 
 # GIT
 ## Conceitos de versionamento
