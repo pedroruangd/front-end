@@ -28,3 +28,13 @@ Informação de alteração
 
 ## GitFLow
 Fluxo do Git
+
+### Branchs
+São ramificações / versões paralelas
+
+- main / master (vai para produção, quando o projeto é publicado)
+- develop
+- DOD Definition of Done: critérios de aceite
+- versionamento: 1.0.13 (versão final | grande alteração | correções/bugs)
+- teste
+
