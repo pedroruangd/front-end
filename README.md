@@ -24,6 +24,7 @@ Informação de alteração
 - git add *
 - git commit -m 'mensagem sem acentuacao'
 - git push (enviar alterações para o repositório)
+- git pull (puxar/trazer aterarações do Github para sua máquina)
 
 ## GitFLow
 Fluxo do Git
