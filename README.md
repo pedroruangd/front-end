@@ -23,6 +23,7 @@ Informação de alteração
 - Após testado todo seu código
 - git add *
 - git commit -m 'mensagem sem acentuacao'
+- git push (enviar alterações para o repositório)
 
 ## GitFLow
 Fluxo do Git
