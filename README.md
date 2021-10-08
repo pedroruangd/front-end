@@ -16,11 +16,13 @@ Arquivo B | Versão 1 | Versão 2
 ## Instando o Git
 
 ## Criando conta no Github
-
-git clone https://github.com/pedroruangd/front-end.git
-
-Adicionei novos arquivos com o git add *
-
 ## Clonar o projeto
-
+git clone https://github.com/pedroruangd/front-end.git
 ## Commits
+Informação de alteração
+- Após testado todo seu código
+- git add *
+- git commit -m 'mensagem sem acentuacao'
+
+## GitFLow
+Fluxo do Git
