@@ -1,5 +1,5 @@
-# Curso Front-End EBAC
-
+# Curso Front-End
+EBAC
 # GIT
 ## Conceitos de versionamento
 - Histórico
@@ -14,6 +14,12 @@ Arquivo A | Versão 1 | Versão 2
 Arquivo B | Versão 1 | Versão 2
 
 ## Instando o Git
+https://git-scm.com/
+
+- Windows: https://git-scm.com/download/win
+- Linux (apt-get): sudo apt-get install git
+- Mac (brew): brew install git
+
 
 ## Criando conta no Github
 ## Clonar o projeto
