@@ -1,182 +1,183 @@
 html {
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: #f5f5f5;
     font-family: 'Roboto', sans-serif;
-}
-
-.main-container {
-    display: block;
-    width: 100vw;
-    margin: 0 auto;
-}
-
-.container {
-    display: block;
-    float: left;
-    padding: 20px;
-    max-width: 100%;
-    margin: 0 auto;
-    max-width: 1198px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
 }
 
 header {
     background: #fff;
-    display: block;
-    float: left;
-    padding: 20px;
-    width: 100%;
-    border-bottom: 1px solid #0075bf;
+    background-image: url(../images/topo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 0;
+    border-bottom: 2px solid #0075bf;
 }
 
 header img {
     max-width: 250px;
     height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px;
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+}
+
+nav {
+    width: 20%;
+    float: left;
+    margin-right: 4%;
+}
+
+nav li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    background: #ccc;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
+nav li a:hover {
+    background: #0075bf;
+    color: #fff;
+}
+
+article {
+    width: 70%;
+    float: left;
+    padding-left: 4%;
+    border-left: 1px solid #ccc;
+}
+
+footer {
+    background: #0075bf;
+    color: #fff;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.4rem;
+    display: block;
+}
+
+footer small {
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
     color: #0075bf;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.4rem;
     color: #0075bf;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.2rem;
     color: #0075bf;
     margin-bottom: 20px;
     padding-top: 10px;
 }
 
 h4 {
-    font-size: 1.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8rem;
     color: #385874;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-top: 10px;
 }
 
 p {
-    margin-bottom: 10px;
-    line-height: 1.4;
+    margin-bottom: 30px;
+    line-height: 1.5em;
     color: #333;
 }
 
+ol {
+    margin: 0 0 20px 30px;
+}
+
 img {
-    max-width: 100%;
-    height: auto;
+    margin: 10px 0 30px;
 }
 
 #tenho-interesse {
-    background-color: #b8c8d6;
-    width: 100%;
-}
-
-#tenho-interesse form,
-.cognito.c-med .c-forms-form,
-.cognito.c-med .c-forms-form div {
-    background-color: #b8c8d6 !important;
-}
-
-#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
-#tenho-interesse .cognito label[for],
-.cognito input[type=radio],
-.cognito input[type=checkbox] {
-    color: #385874;
-}
-
-ol {
-    margin-left: 30px;
-}
-
-ol li {
-    font-size: 1.4rem;
-    color: #454545;
-    display: block;
-}
-
-section {
-    background-color: #fff;
-    display: block;
-    float: left;
-    font-size: 1.5rem;
-    /* equivalente a 15px */
-    padding: 20px;
-    width: 100%;
-}
-
-section nav {
-    display: block;
-    float: left;
-    width: 30%;
-}
-
-nav ul {
-    padding: 0;
-}
-
-nav li {
-    background-color: #efefef;
-    margin: 1px 20px 1px 0;
-    padding: 10px;
-    display: block;
-}
-
-nav li:hover {
-    background-color: #dfdfdf;
-}
-
-nav a {
-    text-decoration: none;
-    color: #0075bf;
-}
-
-nav a:hover {
-    color: #385874;
-}
-
-section article {
-    display: block;
-    float: left;
-    width: 70%;
-}
-
-footer {
-    background-color: #0075bf;
-    display: block;
-    float: left;
-    padding: 20px;
-    width: 100%;
-}
-
-footer p {
-    color: #ffffff;
-    font-size: 1.4rem;
-}
-
-footer small {
-    font-size: 80%;
-    display: block;
+    background: #cfd8dc;
+    padding: 30px 0;
+    margin-top: 50px;
 }
 
 .cognito {
-    height: 350px !important;
+    height: 350px!important;
     overflow: hidden !important;
 }
 
-@media (max-width: 425px) {
+.cog-cognito {
+    margin: 0!important;
+}
+
+@media (max-width: 600px) {
     section nav,
     section article {
         width: 100%;
     }
-    .container {
-        padding-left: 1%;
-        padding-right: 1%;
+    article {
+        padding: 30px 0;
+        border: none;
+        margin-top: 20px;
+        border-top: 2px solid #ccc;
+    }
+    header {
+        padding: 8px;
+    }
+    header img {
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+    }
+    footer {
+        padding: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
