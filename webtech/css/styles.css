@@ -154,6 +154,16 @@ img {
     margin: 0!important;
 }
 
+@media (max-width: 900px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    #banner {
+        width: 100%;
+    }
+}
+
 @media (max-width: 600px) {
     section nav,
     section article {
@@ -175,10 +185,6 @@ img {
     }
     footer {
         padding: 0;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
     }
 }
 
