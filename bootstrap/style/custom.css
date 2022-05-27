@@ -1,0 +1,51 @@
+header {
+    padding: 40px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+section {
+    padding: 80px 0;
+    border-top: 1px solid #ccc;
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color: #ff8800;
+    border-color: #e27800;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #e27800;
+}
+
+a.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: #ff8800;
+}
+
+a.active {
+    color: #ff8800;
+}
+
+input,
+textarea {
+    margin: 10px 0;
+}
+
+#produtos {
+    background-image: url("../images/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 0 15px 15px 0;
+}
