@@ -47,5 +47,16 @@ textarea {
 .card {
     width: 32%;
     float: left;
-    margin: 0 15px 15px 0;
+    margin: 0 1.33% 15px 0;
+}
+
+.carousel-inner {
+    height: 300px;
+}
+
+#carouselId .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
 }
