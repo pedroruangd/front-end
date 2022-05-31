@@ -38,14 +38,39 @@ textarea {
     margin: 10px 0;
 }
 
-#produtos {
+#veiculos {
     background-image: url("../images/bg1.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .card {
-    width: 32%;
-    float: left;
-    margin: 0 15px 15px 0;
+    margin: 20px 0;
+}
+
+.btn:disabled {
+    background-color: #bbb;
+    border-color: #aaa;
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 768px) {
+    .logo,
+    .menu {
+        text-align: center;
+    }
+    #sobre img {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768.98px) {
+    .justify-content-center {
+        justify-content: right!important;
+    }
+}
+
+@media (min-width: 992px) {
+    ...
 }
