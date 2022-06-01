@@ -14,16 +14,15 @@
     <div class="container">
         <div class="mensagem"></div>
         <form id="formulario-02">
-            <input type="text" placeholder="Digite seu Nome" class="obrigatorio" name="nome">
+            <input type="text" placeholder="Digite seu Nome" id="nome" class="obrigatorio" name="nome">
             <input type="text" placeholder="Digite seu E-mail" class="email" name="email">
-            <input type="text" placeholder="Digite seu Telefone" class="" name="telefone">
-            <input type="text" placeholder="Digite seu CEP" class="numero" name="cep">
+            <input type="tel" placeholder="Digite seu Telefone" class="numero" name="telefone">
+            <input type="number" placeholder="Digite seu CEP" class="" name="cep">
             <input type="text" placeholder="Digite sua Cidade " class="obrigatorio" name="cidade">
-            <input type="text" placeholder="Digite seu UF" class="uf" name="uf">
-            <button type="submit">Enviar</button>
+            <input type="text" placeholder="Digite seu UF" class="uf" name="uf" maxlength="2">
+            <button type="submit" id="enviar">Enviar</button>
         </form>
-        <div id="redultado"></div>
-
+        <div id="resultado"></div>
 
     </div>
 

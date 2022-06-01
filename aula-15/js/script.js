@@ -1,6 +1,3 @@
-const formulario1 = document.getElementById('formulario-01');
-
-
 function validaCampo(elemento) {
 
     elemento.addEventListener('focusout', function(event) {
@@ -84,3 +81,24 @@ for (let emFoco of camposNumericos) {
 for (let emFoco of camposEmail) {
     validaEmail(emFoco);
 }
+
+
+// -----------------
+let input1 = document.querySelector(".obrigatorio");
+let input2 = document.querySelector(".email");
+let input3 = document.querySelector(".numero");
+
+let button = document.querySelector("#enviar");
+button.disabled = true;
+
+input1.addEventListener("change", stateHandle);
+input2.addEventListener("change", stateHandle);
+input3.addEventListener("change", stateHandle);
+
+function stateHandle() {
+    if (document.querySelector(".obrigatorio").value === "" || document.querySelector(".email").value === "" || document.querySelector(".numero").value === "") {
+        button.disabled = true;
+    } else {
+        button.disabled = false;
+    }
+};

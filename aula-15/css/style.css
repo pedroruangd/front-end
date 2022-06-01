@@ -42,6 +42,10 @@ button:hover {
     background-color: #202095;
 }
 
+button:disabled {
+    background-color: #bbb;
+}
+
 .mensagem,
 .resultado {
     font-size: 2rem;
