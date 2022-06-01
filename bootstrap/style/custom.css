@@ -38,25 +38,37 @@ textarea {
     margin: 10px 0;
 }
 
-#produtos {
+#veiculos {
     background-image: url("../images/bg1.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .card {
-    width: 32%;
-    float: left;
-    margin: 0 1.33% 15px 0;
+    margin: 20px 0;
 }
 
-.carousel-inner {
-    height: 300px;
+.btn:disabled {
+    background-color: #bbb;
+    border-color: #aaa;
 }
 
-#carouselId .carousel-item img {
-    object-fit: cover;
-    object-position: center;
-    height: 100vh;
-    overflow: hidden;
+@media (max-width: 768px) {
+    .logo,
+    .menu {
+        text-align: center;
+    }
+    #sobre img {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768.98px) {
+    .justify-content-center {
+        justify-content: right!important;
+    }
+}
+
+@media (min-width: 992px) {
+    ...
 }
