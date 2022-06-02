@@ -53,22 +53,27 @@ textarea {
     border-color: #aaa;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .logo,
     .menu {
         text-align: center;
     }
-    #sobre img {
-        margin-top: 40px;
-    }
 }
 
-@media (min-width: 768.98px) {
+@media (min-width: 992px) {
     .justify-content-center {
         justify-content: right!important;
     }
 }
 
-@media (min-width: 992px) {
-    ...
+@media (max-width: 768px) {
+    #sobre img {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:576px) {
+    .menu {
+        font-size: .8em;
+    }
 }
