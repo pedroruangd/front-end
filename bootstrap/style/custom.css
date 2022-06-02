@@ -33,6 +33,11 @@ a.active {
     color: #ff8800;
 }
 
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
 input,
 textarea {
     margin: 10px 0;
@@ -53,22 +58,41 @@ textarea {
     border-color: #aaa;
 }
 
-@media (max-width: 768px) {
+.form-check {
+    display: inline-block;
+}
+
+p a {
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
     .logo,
     .menu {
         text-align: center;
     }
-    #sobre img {
-        margin-top: 40px;
-    }
 }
 
-@media (min-width: 768.98px) {
+@media (min-width: 992px) {
     .justify-content-center {
         justify-content: right!important;
     }
 }
 
-@media (min-width: 992px) {
-    ...
+@media (max-width: 768px) {
+    #sobre img {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:576px) {
+    .menu {
+        font-size: .7em;
+    }
+    section {
+        padding: 40px 0;
+    }
+    .nav {
+        --bs-nav-link-padding-x: .7em;
+    }
 }
