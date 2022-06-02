@@ -27,7 +27,7 @@ function validaCampoNumerico(elemento) {
 
         let numero = this.value.match(/^[\d]5-[\d]3/) ? this.value.replace(/-/, "") : this.value;
 
-        if (numero != "" && numero.match(/[0-9]*/) && numero >= 0 && numero <= 10) {
+        if (numero != "") {
             document.querySelector('.mensagem').innerHTML = "";
             this.classList.remove('erro');
             this.parentNode.classList.remove('erro');
